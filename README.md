@@ -1,5 +1,7 @@
 # TakeMeter: Evaluation Report
 
+Demo Video: https://www.loom.com/share/ede7ab3274f249998e334e3eff5ba23b
+
 ## 1. Project Summary
 TakeMeter is a text classification system built for the `r/TaylorSwift` subreddit. It categorizes content (posts from the subreddit) into four labels: **Updates**, **Opinion**, **Community**, and **Poll**. The goal was to build a system capable of distinguishing between objective news, subjective analysis, creative community projects, and posts that are meant to spark responses to a question or questions. We compared a baseline heuristic approach (zero-shot) (using a prompt-based LLM) against a fine-tuned `distilbert-base-uncased` model. The training platform is HuggingFace.
 
