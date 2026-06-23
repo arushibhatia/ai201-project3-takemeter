@@ -1,0 +1,13 @@
+{
+  "baseline_accuracy": 0.6364,
+  "finetuned_accuracy": 0.6061,
+  "improvement": -0.0303,
+  "test_set_size": 33,
+  "label_map": {
+    "Updates": 0,
+    "Opinion": 1,
+    "Community": 2,
+    "Poll": 3
+  },
+  "model": "distilbert-base-uncased"
+}
